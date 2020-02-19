@@ -1,16 +1,19 @@
-[{
-  "id": "1",
-  "title": "tests",
-  "body": "asfdfsd",
-  "journal": "food"
-}, 
-{ "id": "2",
-  "title": "lskfjsdlk",
-  "body": "sdjlfkjdsklf",
-  "journal": "excercise"
-}, 
-{ "id": "3",
-  "title": "ouch",
-  "body": "dude",
-  "journal": "food"
-}]
+{
+  "notes": [
+    {
+      "title": "add ",
+      "text": "new datata\nmore data\nless data ",
+      "id": 0
+    },
+    {
+      "title": "new note",
+      "text": "note-talker\n",
+      "id": 2
+    },
+    {
+      "title": "add another",
+      "text": "add another\n",
+      "id": 4
+    }
+  ]
+}

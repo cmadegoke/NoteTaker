@@ -96,7 +96,7 @@ var handleNewNoteView = function() {
 // If a note's title or text are empty, hide the save button
 // Or else show it
 var handleRenderSaveBtn = function() {
-  if (!$noteTitle.val().trim() || !$noteText.val().trim()) {
+  if (!$noteTitle.val().trim() || !$noteText.val().trim()) {  
     $saveNoteBtn.hide();
   } else {
     $saveNoteBtn.show();
@@ -117,7 +117,6 @@ var renderNoteList = function(notes) {
     var $delBtn = $(
       "<i class='fas fa-trash-alt float-right text-danger delete-note'>"
     );
-
     $li.append($span, $delBtn);
     noteListItems.push($li);
   }

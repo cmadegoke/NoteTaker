@@ -1,0 +1,112 @@
+{
+  "animals": [
+    {
+      "id": "1",
+      "createdAt": "2011-10-05T14:48:00.000Z",
+      "name": "Spindle",
+      "species": "bear",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "hungry",
+        "zany",
+        "loving"
+      ]
+    },
+    {
+      "id": "2",
+      "createdAt": "2011-10-05T14:48:00.000Z",
+      "name": "Terry",
+      "species": "gorilla",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "anxious",
+        "goofy"
+      ]
+    },
+    {
+      "id": "3",
+      "createdAt": "2011-10-17T14:48:00.000Z",
+      "name": "Erica",
+      "species": "gorilla",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "quirky",
+        "rash"
+      ]
+    },
+    {
+      "id": "4",
+      "createdAt": "2011-10-25T14:48:00.000Z",
+      "name": "Noel",
+      "species": "bear",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "impish",
+        "sassy",
+        "brave"
+      ]
+    },
+    {
+      "id": "5",
+      "createdAt": "2006-12-07T14:48:00.000Z",
+      "name": "Coco",
+      "species": "penguin",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "loving",
+        "goofy"
+      ]
+    },
+    {
+      "id": "6",
+      "createdAt": "2011-10-05T14:48:00.000Z",
+      "name": "Marcy",
+      "species": "ostrich",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "hungry",
+        "goofy"
+      ]
+    },
+    {
+      "name": "Bodhi",
+      "species": "Doggo",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "zany"
+      ],
+      "id": "aab30456c54350f134673ba4a9ad84ed",
+      "createdAt": "2020-02-07T21:32:39.454Z"
+    },
+    {
+      "name": "Cassie",
+      "species": "Doggo",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "hungry",
+        "zany",
+        "goofy"
+      ],
+      "id": "4d38093b4050edcadc4df70071b9ee92",
+      "createdAt": "2020-02-07T22:06:41.576Z"
+    },
+    {
+      "name": "Roxy",
+      "species": "Quokka",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "loving"
+      ],
+      "id": 8
+    },
+    {
+      "name": "Tamara",
+      "species": "Tiger",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "hungry"
+      ],
+      "id": 9
+    }
+  ]
+}

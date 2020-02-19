@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Zoo Keepr</title>
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Rubik:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <header class="py-3">
+    <div class="flex-row justify-space-between align-center container-fluid mx-auto">
+      <h1 class="text-light">Zoo Keepr</h1>
+      <h2 class="text-light">A Zoo Animal Catalog</h2>
+    </div>
+  </header>
+
+  <main class="container-fluid mx-auto">
+    <section class="p-3 my-4 bg-dark ">
+      <h2 class="text-light">Your guide to the wild.</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugiat sint ab ut blanditiis assumenda, culpa
+        alias perspiciatis, at quasi minus. Repellendus magni accusamus aliquam sunt culpa ex enim natus.</p>
+    </section>
+
+    <section class="flex-row justify-space-between my-4">
+      <div class="col-12 bg-dark mb-3 p-3">
+        <h2 class="text-light">See our catalog!</h2>
+      </div>
+      <div class="col-12 col-md-3 bg-dark p-3">
+        <button class="btn mb-3" id="get-animals">Display Animals</button>
+        <button class="btn mb-3" id="get-zookeepers">Display Zookeepers</button>
+        <button class="btn mb-3" id="get-aquarium">Display Aquarium</button>
+      </div>
+      <div class="col-12 col-md-9 bg-dark p-3">
+        <div class="flex-row" id="display-area"></div>
+      </div>
+    </section>
+
+    <section class="my-4 flex-row justify-space-between ">
+      <div class="col-12 col-sm-6 col-md-4 bg-dark p-3 mb-3">
+        <h3 class="text-light">Enter an Animal</h3>
+        <form id="animal-form">
+          <label for="animal-name" class="form-label">Animal Name</label>
+          <input type="text" id="animal-name" name="animal-name" class="form-input" placeholder="Enter Name">
+
+          <label for="species-input" class="form-label">Species</label>
+          <input type="text" id="species-input" name="species" class="form-input" placeholder="Enter Species">
+
+          <label for="diet-input" class="form-label">Diet</label>
+          <div class="flex-row justify-center">
+            <div class="col-auto mb-2">
+              <input type="radio" id="herbivore-input" name="diet" value="herbivore" checked>
+              <label for="herbivore-input">Herbivore</label>
+            </div>
+            <div class="col-auto mb-2">
+              <input type="radio" id="carnivore-input" name="diet" value="carnivore">
+              <label for="carnivore-input">Carnivore</label>
+            </div>
+            <div class="col-auto mb-2">
+              <input type="radio" id="omnivore-input" name="diet" value="omnivore">
+              <label for="omnivore-input">Omnivore</label>
+            </div>
+          </div>
+
+          <label for="personality-input" class="form-label">Personality Traits (pick all that apply)</label>
+          <small>On macOS, use <kbd>command + click</kbd></small> <br />
+          <small>On Windows, use <kdb>ctrl + click</kdb></small>
+          <select multiple id="personality-input" class="form-input" name="personality">
+            <option value="hungry">Hungry</option>
+            <option value="zany">Zany</option>
+            <option value="anxious">Anxious</option>
+            <option value="loving">Loving</option>
+            <option value="goofy">Goofy</option>
+          </select>
+
+          <button class="btn">Add Animal</button>
+        </form>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 bg-dark p-3 mb-3">
+        <h3 class="text-light">Enter a Zookeeper</h3>
+        <form id="zookeeper-form">
+          <label for="zookeeper-name" class="form-label">Zookeeper Name</label>
+          <input type="text" id="zookeeper-name" class="form-input input" placeholder="Enter Name"
+            name="zookeeper-name">
+
+          <label for="age-input" class="form-label input">Species</label>
+          <input type="number" id="age-input" class="form-input" placeholder="Enter Age" name="age">
+
+          <label for="favorite-animal" class="form-label">Favorite Animal</label>
+          <input type="text" class="form-input input" id="favorite-animal" placeholder="Enter Favorite Animal"
+            name="favorite-animal">
+
+          <button class="btn">Add Animal</button>
+        </form>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 bg-dark p-3 mb-3">
+        <h3 class="text-light">Enter a Fish</h3>
+        <form id="aquarium-form">
+          <label for="fish-name" class="form-label">Fish Name</label>
+          <input type="text" id="fish-name" class="form-input" placeholder="Enter Name" name="fish-name">
+
+          <label for="aquarium-species" class="form-label">Species</label>
+          <input type="text" id="aquarium-species" class="form-input" placeholder="Enter Species" name="fish-species">
+
+          <label for="habitat" class="form-label">Habitat</label>
+          <div class="flex-row">
+            <div class="col-auto mb-2">
+              <input type="radio" id="saltwater-input" name="habitat" value="salt water" checked>
+              <label for="saltwater-input">Salt Water</label>
+            </div>
+            <div class="col-auto mb-2">
+              <input type="radio" id="freshwater-input" name="habitat" value="fresh water">
+              <label for="freshwater-input">Fresh Water</label>
+            </div>
+
+          </div>
+
+
+          <button class="btn">Add Animal</button>
+        </form>
+      </div>
+    </section>
+
+
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
