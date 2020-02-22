@@ -1,19 +1,19 @@
 {
   "notes": [
     {
-      "title": "add ",
-      "text": "new datata\nmore data\nless data ",
+      "title": "new Note",
+      "text": "orange",
       "id": 0
     },
     {
-      "title": "new note",
-      "text": "note-talker\n",
-      "id": 2
+      "title": "another note",
+      "text": "apple",
+      "id": 1
     },
     {
-      "title": "add another",
-      "text": "add another\n",
-      "id": 4
+      "title": "Juice",
+      "text": "Juice box",
+      "id": 2
     }
   ]
 }

@@ -23,6 +23,7 @@ function deleteById(id) {
     path.join(__dirname, '../data/journal.json'),
     JSON.stringify({ notes: result }, null, 2)
   );
+  console.log (result)
   return result;
 }
 
